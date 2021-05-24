@@ -11,10 +11,10 @@ import { ConnectionOptions } from 'typeorm';
 // Check typeORM documentation for more information.
 const config: ConnectionOptions = {
 	type: 'postgres',
-	host: 'calibraint.crhofpllzrki.us-east-1.rds.amazonaws.com',
+	host: '',
 	port: 5432,
-	username: "calibraint",
-	password: "Spider$05",
+	username: "",
+	password: "",
 	database: "test",
 	entities: [__dirname + '/db/**/*.entity{.ts,.js}'],
 
